@@ -64,7 +64,8 @@ void Win::GivePlayerWin(Player* targetPlayer) {
 				points += 5;
 			}
 			else {
-				points = 50;
+				//points = 50;
+				points += 5;+
 			}
 
 			targetPlayer->m_PlayerConfig["points"] = points;
