@@ -118,7 +118,7 @@ void ChatCommands::Help() {
 
 void ChatCommands::Points(Player* player) {
 	int points = player->m_PlayerConfig["points"];
-	Chat::SendServerMessage("#" + std::to_string(player->m_PlayerId) + " has: " + std::to_string(points) + " points (max: 50)\nSay !weapons to buy a weapon.");
+	Chat::SendServerMessage("#" + std::to_string(player->m_PlayerId) + " has: " + std::to_string(points) + " points\nSay !weapons to buy a weapon.");
 }
 
 void ChatCommands::PlayerInfo(Command* command, Player* player) {
