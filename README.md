@@ -1,5 +1,7 @@
 # ccgm-dll
-my modified ccgm dll used for 24/7 TAG <br><br>
+my modified ccgm dll used for 24/7 TAG <br>
+i lost the random point code and that limits to 50 points could someone please find it for me and open an issue thanks<br><br>
+
 
 check releases<br><br>
 
